@@ -1,7 +1,7 @@
 ## Genomic analysis of *Aspergillus fumigatus* A1163 FK506-resistant isolates
 This repository contains code used for the sequence and ploidy analysis and associated figure generation in: \
 \
-Lehmann AE, Ramírez EA, Keller NP, Heitman J.
+Lehmann AE, Ramírez EA, Keller NP, Heitman J. Whole-chromosome duplications drive antimicrobial resistance in *Aspergillus fumigatus*.
 2025. \
 \
 It includes steps to: \
