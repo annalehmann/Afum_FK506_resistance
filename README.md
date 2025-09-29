@@ -9,4 +9,4 @@ It includes steps to: \
   • Predict variant effects. \
   • Align reads to the CEA10 reference assembly. \
   • Plot normalized read depth across the genome. \
-  • Generate Figure 1D, Table S1, and Table S4.
+  • Generate Figure 1D, Table S1, and Table S3.
