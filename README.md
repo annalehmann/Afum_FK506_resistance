@@ -2,7 +2,7 @@
 This repository contains code used for the sequence and ploidy analysis and associated figure generation in: \
 \
 Lehmann AE, Ramírez EA, Keller NP, Heitman J. Whole-chromosome duplications drive antimicrobial resistance in *Aspergillus fumigatus*.
-2025. \
+*bioRxiv* 2025. https://doi.org/10.1101/2025.09.29.679244 \
 \
 It includes steps to: \
   • Identify sequence variants relative to our laboratory A1163 strain. \
