@@ -5,6 +5,7 @@ library(ggplot2)
 #install.packages("patchwork")
 library(patchwork)
 
+# DNA seq coverage from each RNA-seq condition (Fig S1A)
 setwd("")
 bednames <- list.files(pattern = ".bed")
 samples <- sub(".regions.bed", "", bednames)
@@ -45,6 +46,7 @@ colors[grepl("A1163", names(bedfiles))] <- "#a7adba"
 colors[grepl("0AR", names(bedfiles))] <- "#684fa1" 
 colors[grepl("0AS", names(bedfiles))] <- "#b4a8d2" 
 colors[grepl("6BR", names(bedfiles))] <- "#39773a"
+colors[grepl("6BS", names(bedfiles))] <- "#b6d7a8"
 names(colors) <- names(bedfiles)
 
 # make plots
@@ -74,6 +76,8 @@ for (f in names(bedfiles)) {
 stacked_plot <- A1163 /
   `0AR` /
   `0AS` /
-  `6BR` 
+  `6BR` /
+  `6BS`
 
-ggsave(file="../Chr7_cov.svg", plot=stacked_plot, width=6, height=3)
+ggsave(file="../Chr7_cov_rev.svg", plot=stacked_plot, width=6, height=3.5)
+                                
