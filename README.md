@@ -2,7 +2,7 @@
 This repository contains code used for the sequence and ploidy analysis and associated figure generation in: \
 \
 Lehmann AE, Ramírez EA, Keller NP, Heitman J. Aneuploidy promotes transient stress adaptation and metabolic flexibility in the human fungal pathogen *Aspergillus fumigatus*.
-*bioRxiv* 2026. https://doi.org/10.1101/2025.09.29.679244 \
+*Current Biology* (2026). https://doi.org/10.1016/j.cub.2026.05.047. \
 \
 It includes steps to: \
   • Identify sequence variants relative to our laboratory A1163 strain. \
